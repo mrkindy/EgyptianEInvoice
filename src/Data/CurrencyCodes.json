@@ -1,0 +1,722 @@
+[
+  {
+    "code": "AED",
+    "Desc_en": "UAE Dirham"
+  },
+  {
+    "code": "AFN",
+    "Desc_en": "Afghani"
+  },
+  {
+    "code": "ALL",
+    "Desc_en": "Lek"
+  },
+  {
+    "code": "AMD",
+    "Desc_en": "Armenian Dram"
+  },
+  {
+    "code": "ANG",
+    "Desc_en": "Netherlands Antillean Guilder"
+  },
+  {
+    "code": "AOA",
+    "Desc_en": "Kwanza"
+  },
+  {
+    "code": "ARS",
+    "Desc_en": "Argentine Peso"
+  },
+  {
+    "code": "AUD",
+    "Desc_en": "Australian Dollar"
+  },
+  {
+    "code": "AWG",
+    "Desc_en": "Aruban Florin"
+  },
+  {
+    "code": "AZN",
+    "Desc_en": "Azerbaijan Manat"
+  },
+  {
+    "code": "BAM",
+    "Desc_en": "Convertible Mark"
+  },
+  {
+    "code": "BBD",
+    "Desc_en": "Barbados Dollar"
+  },
+  {
+    "code": "BDT",
+    "Desc_en": "Taka"
+  },
+  {
+    "code": "BGN",
+    "Desc_en": "Bulgarian Lev"
+  },
+  {
+    "code": "BHD",
+    "Desc_en": "Bahraini Dinar"
+  },
+  {
+    "code": "BIF",
+    "Desc_en": "Burundi Franc"
+  },
+  {
+    "code": "BMD",
+    "Desc_en": "Bermudian Dollar"
+  },
+  {
+    "code": "BND",
+    "Desc_en": "Brunei Dollar"
+  },
+  {
+    "code": "BOB",
+    "Desc_en": "Boliviano"
+  },
+  {
+    "code": "BOV",
+    "Desc_en": "Mvdol"
+  },
+  {
+    "code": "BRL",
+    "Desc_en": "Brazilian Real"
+  },
+  {
+    "code": "BSD",
+    "Desc_en": "Bahamian Dollar"
+  },
+  {
+    "code": "BTN",
+    "Desc_en": "Ngultrum"
+  },
+  {
+    "code": "BWP",
+    "Desc_en": "Pula"
+  },
+  {
+    "code": "BYN",
+    "Desc_en": "Belarusian Ruble"
+  },
+  {
+    "code": "BZD",
+    "Desc_en": "Belize Dollar"
+  },
+  {
+    "code": "CAD",
+    "Desc_en": "Canadian Dollar"
+  },
+  {
+    "code": "CDF",
+    "Desc_en": "Congolese Franc"
+  },
+  {
+    "code": "CHE",
+    "Desc_en": "WIR Euro"
+  },
+  {
+    "code": "CHF",
+    "Desc_en": "Swiss Franc"
+  },
+  {
+    "code": "CHW",
+    "Desc_en": "WIR Franc"
+  },
+  {
+    "code": "CLF",
+    "Desc_en": "Unidad de Fomento"
+  },
+  {
+    "code": "CLP",
+    "Desc_en": "Chilean Peso"
+  },
+  {
+    "code": "CNY",
+    "Desc_en": "Yuan Renminbi"
+  },
+  {
+    "code": "COP",
+    "Desc_en": "Colombian Peso"
+  },
+  {
+    "code": "COU",
+    "Desc_en": "Unidad de Valor Real"
+  },
+  {
+    "code": "CRC",
+    "Desc_en": "Costa Rican Colon"
+  },
+  {
+    "code": "CUC",
+    "Desc_en": "Peso Convertible"
+  },
+  {
+    "code": "CUP",
+    "Desc_en": "Cuban Peso"
+  },
+  {
+    "code": "CVE",
+    "Desc_en": "Cabo Verde Escudo"
+  },
+  {
+    "code": "CZK",
+    "Desc_en": "Czech Koruna"
+  },
+  {
+    "code": "DJF",
+    "Desc_en": "Djibouti Franc"
+  },
+  {
+    "code": "DKK",
+    "Desc_en": "Danish Krone"
+  },
+  {
+    "code": "DOP",
+    "Desc_en": "Dominican Peso"
+  },
+  {
+    "code": "DZD",
+    "Desc_en": "Algerian Dinar"
+  },
+  {
+    "code": "EGP",
+    "Desc_en": "Egyptian Pound"
+  },
+  {
+    "code": "ERN",
+    "Desc_en": "Nakfa"
+  },
+  {
+    "code": "ETB",
+    "Desc_en": "Ethiopian Birr"
+  },
+  {
+    "code": "EUR",
+    "Desc_en": "Euro"
+  },
+  {
+    "code": "FJD",
+    "Desc_en": "Fiji Dollar"
+  },
+  {
+    "code": "FKP",
+    "Desc_en": "Falkland Islands Pound"
+  },
+  {
+    "code": "GBP",
+    "Desc_en": "Pound Sterling"
+  },
+  {
+    "code": "GEL",
+    "Desc_en": "Lari"
+  },
+  {
+    "code": "GHS",
+    "Desc_en": "Ghana Cedi"
+  },
+  {
+    "code": "GIP",
+    "Desc_en": "Gibraltar Pound"
+  },
+  {
+    "code": "GMD",
+    "Desc_en": "Dalasi"
+  },
+  {
+    "code": "GNF",
+    "Desc_en": "Guinean Franc"
+  },
+  {
+    "code": "GTQ",
+    "Desc_en": "Quetzal"
+  },
+  {
+    "code": "GYD",
+    "Desc_en": "Guyana Dollar"
+  },
+  {
+    "code": "HKD",
+    "Desc_en": "Hong Kong Dollar"
+  },
+  {
+    "code": "HNL",
+    "Desc_en": "Lempira"
+  },
+  {
+    "code": "HRK",
+    "Desc_en": "Kuna"
+  },
+  {
+    "code": "HTG",
+    "Desc_en": "Gourde"
+  },
+  {
+    "code": "HUF",
+    "Desc_en": "Forint"
+  },
+  {
+    "code": "IDR",
+    "Desc_en": "Rupiah"
+  },
+  {
+    "code": "ILS",
+    "Desc_en": "New Israeli Sheqel"
+  },
+  {
+    "code": "INR",
+    "Desc_en": "Indian Rupee"
+  },
+  {
+    "code": "IQD",
+    "Desc_en": "Iraqi Dinar"
+  },
+  {
+    "code": "IRR",
+    "Desc_en": "Iranian Rial"
+  },
+  {
+    "code": "ISK",
+    "Desc_en": "Iceland Krona"
+  },
+  {
+    "code": "JMD",
+    "Desc_en": "Jamaican Dollar"
+  },
+  {
+    "code": "JOD",
+    "Desc_en": "Jordanian Dinar"
+  },
+  {
+    "code": "JPY",
+    "Desc_en": "Yen"
+  },
+  {
+    "code": "KES",
+    "Desc_en": "Kenyan Shilling"
+  },
+  {
+    "code": "KGS",
+    "Desc_en": "Som"
+  },
+  {
+    "code": "KHR",
+    "Desc_en": "Riel"
+  },
+  {
+    "code": "KMF",
+    "Desc_en": "Comorian Franc "
+  },
+  {
+    "code": "KPW",
+    "Desc_en": "North Korean Won"
+  },
+  {
+    "code": "KRW",
+    "Desc_en": "Won"
+  },
+  {
+    "code": "KWD",
+    "Desc_en": "Kuwaiti Dinar"
+  },
+  {
+    "code": "KYD",
+    "Desc_en": "Cayman Islands Dollar"
+  },
+  {
+    "code": "KZT",
+    "Desc_en": "Tenge"
+  },
+  {
+    "code": "LAK",
+    "Desc_en": "Lao Kip"
+  },
+  {
+    "code": "LBP",
+    "Desc_en": "Lebanese Pound"
+  },
+  {
+    "code": "LKR",
+    "Desc_en": "Sri Lanka Rupee"
+  },
+  {
+    "code": "LRD",
+    "Desc_en": "Liberian Dollar"
+  },
+  {
+    "code": "LSL",
+    "Desc_en": "Loti"
+  },
+  {
+    "code": "LYD",
+    "Desc_en": "Libyan Dinar"
+  },
+  {
+    "code": "MAD",
+    "Desc_en": "Moroccan Dirham"
+  },
+  {
+    "code": "MDL",
+    "Desc_en": "Moldovan Leu"
+  },
+  {
+    "code": "MGA",
+    "Desc_en": "Malagasy Ariary"
+  },
+  {
+    "code": "MKD",
+    "Desc_en": "Denar"
+  },
+  {
+    "code": "MMK",
+    "Desc_en": "Kyat"
+  },
+  {
+    "code": "MNT",
+    "Desc_en": "Tugrik"
+  },
+  {
+    "code": "MOP",
+    "Desc_en": "Pataca"
+  },
+  {
+    "code": "MRU",
+    "Desc_en": "Ouguiya"
+  },
+  {
+    "code": "MUR",
+    "Desc_en": "Mauritius Rupee"
+  },
+  {
+    "code": "MVR",
+    "Desc_en": "Rufiyaa"
+  },
+  {
+    "code": "MWK",
+    "Desc_en": "Malawi Kwacha"
+  },
+  {
+    "code": "MXN",
+    "Desc_en": "Mexican Peso"
+  },
+  {
+    "code": "MXV",
+    "Desc_en": "Mexican Unidad de Inversion (UDI)"
+  },
+  {
+    "code": "MYR",
+    "Desc_en": "Malaysian Ringgit"
+  },
+  {
+    "code": "MZN",
+    "Desc_en": "Mozambique Metical"
+  },
+  {
+    "code": "NAD",
+    "Desc_en": "Namibia Dollar"
+  },
+  {
+    "code": "NGN",
+    "Desc_en": "Naira"
+  },
+  {
+    "code": "NIO",
+    "Desc_en": "Cordoba Oro"
+  },
+  {
+    "code": "NOK",
+    "Desc_en": "Norwegian Krone"
+  },
+  {
+    "code": "NPR",
+    "Desc_en": "Nepalese Rupee"
+  },
+  {
+    "code": "NZD",
+    "Desc_en": "New Zealand Dollar"
+  },
+  {
+    "code": "OMR",
+    "Desc_en": "Rial Omani"
+  },
+  {
+    "code": "PAB",
+    "Desc_en": "Balboa"
+  },
+  {
+    "code": "PEN",
+    "Desc_en": "Sol"
+  },
+  {
+    "code": "PGK",
+    "Desc_en": "Kina"
+  },
+  {
+    "code": "PHP",
+    "Desc_en": "Philippine Peso"
+  },
+  {
+    "code": "PKR",
+    "Desc_en": "Pakistan Rupee"
+  },
+  {
+    "code": "PLN",
+    "Desc_en": "Zloty"
+  },
+  {
+    "code": "PYG",
+    "Desc_en": "Guarani"
+  },
+  {
+    "code": "QAR",
+    "Desc_en": "Qatari Rial"
+  },
+  {
+    "code": "RON",
+    "Desc_en": "Romanian Leu"
+  },
+  {
+    "code": "RSD",
+    "Desc_en": "Serbian Dinar"
+  },
+  {
+    "code": "RUB",
+    "Desc_en": "Russian Ruble"
+  },
+  {
+    "code": "RWF",
+    "Desc_en": "Rwanda Franc"
+  },
+  {
+    "code": "SAR",
+    "Desc_en": "Saudi Riyal"
+  },
+  {
+    "code": "SBD",
+    "Desc_en": "Solomon Islands Dollar"
+  },
+  {
+    "code": "SCR",
+    "Desc_en": "Seychelles Rupee"
+  },
+  {
+    "code": "SDG",
+    "Desc_en": "Sudanese Pound"
+  },
+  {
+    "code": "SEK",
+    "Desc_en": "Swedish Krona"
+  },
+  {
+    "code": "SGD",
+    "Desc_en": "Singapore Dollar"
+  },
+  {
+    "code": "SHP",
+    "Desc_en": "Saint Helena Pound"
+  },
+  {
+    "code": "SLL",
+    "Desc_en": "Leone"
+  },
+  {
+    "code": "SOS",
+    "Desc_en": "Somali Shilling"
+  },
+  {
+    "code": "SRD",
+    "Desc_en": "Surinam Dollar"
+  },
+  {
+    "code": "SSP",
+    "Desc_en": "South Sudanese Pound"
+  },
+  {
+    "code": "STN",
+    "Desc_en": "Dobra"
+  },
+  {
+    "code": "SVC",
+    "Desc_en": "El Salvador Colon"
+  },
+  {
+    "code": "SYP",
+    "Desc_en": "Syrian Pound"
+  },
+  {
+    "code": "SZL",
+    "Desc_en": "Lilangeni"
+  },
+  {
+    "code": "THB",
+    "Desc_en": "Baht"
+  },
+  {
+    "code": "TJS",
+    "Desc_en": "Somoni"
+  },
+  {
+    "code": "TMT",
+    "Desc_en": "Turkmenistan New Manat"
+  },
+  {
+    "code": "TND",
+    "Desc_en": "Tunisian Dinar"
+  },
+  {
+    "code": "TOP",
+    "Desc_en": "Pa’anga"
+  },
+  {
+    "code": "TRY",
+    "Desc_en": "Turkish Lira"
+  },
+  {
+    "code": "TTD",
+    "Desc_en": "Trinidad and Tobago Dollar"
+  },
+  {
+    "code": "TWD",
+    "Desc_en": "New Taiwan Dollar"
+  },
+  {
+    "code": "TZS",
+    "Desc_en": "Tanzanian Shilling"
+  },
+  {
+    "code": "UAH",
+    "Desc_en": "Hryvnia"
+  },
+  {
+    "code": "UGX",
+    "Desc_en": "Uganda Shilling"
+  },
+  {
+    "code": "USD",
+    "Desc_en": "US Dollar"
+  },
+  {
+    "code": "USN",
+    "Desc_en": "US Dollar (Next day)"
+  },
+  {
+    "code": "UYI",
+    "Desc_en": "Uruguay Peso en Unidades Indexadas (UI)"
+  },
+  {
+    "code": "UYU",
+    "Desc_en": "Peso Uruguayo"
+  },
+  {
+    "code": "UYW",
+    "Desc_en": "Unidad Previsional"
+  },
+  {
+    "code": "UZS",
+    "Desc_en": "Uzbekistan Sum"
+  },
+  {
+    "code": "VED",
+    "Desc_en": "Bolívar Soberano"
+  },
+  {
+    "code": "VES",
+    "Desc_en": "Bolívar Soberano"
+  },
+  {
+    "code": "VND",
+    "Desc_en": "Dong"
+  },
+  {
+    "code": "VUV",
+    "Desc_en": "Vatu"
+  },
+  {
+    "code": "WST",
+    "Desc_en": "Tala"
+  },
+  {
+    "code": "XAF",
+    "Desc_en": "CFA Franc BEAC"
+  },
+  {
+    "code": "XAG",
+    "Desc_en": "Silver"
+  },
+  {
+    "code": "XAU",
+    "Desc_en": "Gold"
+  },
+  {
+    "code": "XBA",
+    "Desc_en": "Bond Markets Unit European Composite Unit (EURCO)"
+  },
+  {
+    "code": "XBB",
+    "Desc_en": "Bond Markets Unit European Monetary Unit (E.M.U.-6)"
+  },
+  {
+    "code": "XBC",
+    "Desc_en": "Bond Markets Unit European Unit of Account 9 (E.U.A.-9)"
+  },
+  {
+    "code": "XBD",
+    "Desc_en": "Bond Markets Unit European Unit of Account 17 (E.U.A.-17)"
+  },
+  {
+    "code": "XCD",
+    "Desc_en": "East Caribbean Dollar"
+  },
+  {
+    "code": "XDR",
+    "Desc_en": "SDR (Special Drawing Right)"
+  },
+  {
+    "code": "XOF",
+    "Desc_en": "CFA Franc BCEAO"
+  },
+  {
+    "code": "XPD",
+    "Desc_en": "Palladium"
+  },
+  {
+    "code": "XPF",
+    "Desc_en": "CFP Franc"
+  },
+  {
+    "code": "XPT",
+    "Desc_en": "Platinum"
+  },
+  {
+    "code": "XSU",
+    "Desc_en": "Sucre"
+  },
+  {
+    "code": "XTS",
+    "Desc_en": "Codes specifically reserved for testing purposes"
+  },
+  {
+    "code": "XUA",
+    "Desc_en": "ADB Unit of Account"
+  },
+  {
+    "code": "XXX",
+    "Desc_en": "The codes assigned for transactions where no currency is involved"
+  },
+  {
+    "code": "YER",
+    "Desc_en": "Yemeni Rial"
+  },
+  {
+    "code": "ZAR",
+    "Desc_en": "Rand"
+  },
+  {
+    "code": "ZMW",
+    "Desc_en": "Zambian Kwacha"
+  },
+  {
+    "code": "ZWL",
+    "Desc_en": "Zimbabwe Dollar"
+  }
+]
