@@ -7,7 +7,7 @@ PHP Package for Egyptian eInvoicing SDK, eInvoicing is the solution of the Egypt
 Via Composer
 
 ``` bash
-$ composer require kindy/egyaptian-e-invoice
+$ composer require kindy/egyptian-e-invoice
 ```
 
 ## Examples
