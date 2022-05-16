@@ -109,7 +109,6 @@ if(isset($_POST['signature']))
     $finalDocument = [$document->toArray()];
     $documentSubmit = $eta->submitDocument($finalDocument);
     echo $documentSubmit->acceptedDocuments[0]->uuid.'-'.$documentSubmit->acceptedDocuments[0]->longId.'-'.$documentSubmit->acceptedDocuments[0]->internalId;
-    die();
 }
 
 ?>
