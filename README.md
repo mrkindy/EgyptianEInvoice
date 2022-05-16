@@ -170,7 +170,7 @@ if(isset($_POST['signature']))
 </script>
 ```
 ## Integrate with eSign token
-I have developed a small tool that you can use to sign invoices through WebSocket before send it to EAT, you can find this tool on [Egyptian Tax EInvoice HttpSignature](https://github.com/mrkindy/ETAInvoiceHttpSignature)
+I have developed a small tool that you can use to sign invoices through WebSocket before send it to EAT, you can find this tool on [Egyptian Tax EInvoice HttpSignature](https://github.com/mrkindy/ETAHttpSignature)
 
 ## Contributing
 
