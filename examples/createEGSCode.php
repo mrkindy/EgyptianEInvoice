@@ -11,7 +11,7 @@
 require_once "../vendor/autoload.php";
 require_once "./config.php";
 
-$eta = new \Kindy\EgyaptianEInvoice\ETA($config['client_id'],$config['client_secret'], 'uat');
+$invoice = new \Kindy\EgyaptianEInvoice\ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
 $codes = [];
 $codes[] = [
         "codeType" => "EGS",
@@ -23,6 +23,6 @@ $codes[] = [
         "description" => "ERP System",
         "descriptionAr" => "نظام إدارة الموارد"
 ];
-$createEGSCode = $eta->createEGSCode($codes);
+$createEGSCode = $invoice->createEGSCode($codes);
             
 var_dump($createEGSCode);

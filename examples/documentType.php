@@ -11,7 +11,7 @@
 require_once "../vendor/autoload.php";
 require_once "./config.php";
 
-$eta = new \Kindy\EgyaptianEInvoice\ETA($config['client_id'],$config['client_secret'], 'uat');
+$invoice = new \Kindy\EgyaptianEInvoice\ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
 
-$documentTypes = $eta->documentType();
+$documentTypes = $invoice->documentType();
 print_r($documentTypes->getTypeByID(1));

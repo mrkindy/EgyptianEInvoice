@@ -11,12 +11,12 @@
 require_once "../vendor/autoload.php";
 require_once "./config.php";
 
-$eta = new \Kindy\EgyaptianEInvoice\ETA($config['client_id'],$config['client_secret'], 'uat');
+$invoice = new \Kindy\EgyaptianEInvoice\ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
 $data = [
 
 	"status" => "cancelled",
 	"reason" => "Added by mistake"
 ];
 $documentUUID = 'AXJE5KEH57JQSQNWFXQ7A23G10';
-$documentChangeStatus = $eta->documentChangeStatus($documentUUID,$data);
+$documentChangeStatus = $invoice->documentChangeStatus($documentUUID,$data);
 print_r($documentChangeStatus->status);

@@ -11,7 +11,7 @@
 
 namespace Kindy\EgyaptianEInvoice\Api;
 
-use Kindy\EgyaptianEInvoice\ETA;
+use Kindy\EgyaptianEInvoice\ETAInvoice;
 use Kindy\EgyaptianEInvoice\Util\JsonArray;
 use GuzzleHttp\Client as HTTPClient;
 use \GuzzleHttp\Exception\ClientException;
@@ -56,11 +56,11 @@ abstract class AbstractApi
     protected $prodURL = 'https://api.invoicing.eta.gov.eg';
 
     /**
-     * The ETA instance.
+     * The ETAInvoice instance.
      *
-     * @var ETA
+     * @var ETAInvoice
      */
-    protected $eta;
+    protected $invoice;
 
     /**
      * The per page parameter.
@@ -86,13 +86,13 @@ abstract class AbstractApi
     /**
      * Create a new API instance.
      *
-     * @param ETA $eta
+     * @param ETAInvoice $invoice
      *
      * @return void
      */
-    public function __construct(ETA $eta)
+    public function __construct(ETAInvoice $invoice)
     {
-        $this->eta = $eta;
+        $this->eta = $invoice;
     }
 
     /**

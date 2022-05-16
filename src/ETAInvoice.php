@@ -23,13 +23,13 @@ use Kindy\EgyaptianEInvoice\Api\SubmitDocument;
 use Kindy\EgyaptianEInvoice\Exceptions\EgyaptianEInvoiceException;
 
 /**
- * Class ETA
+ * Class ETAInvoice
  *
  * The main class for API consumption
  *
  * @package Kindy\EgyaptianEInvoice
  */
-class ETA
+class ETAInvoice
 {
     /**
      *  @var string The API Issued Client ID

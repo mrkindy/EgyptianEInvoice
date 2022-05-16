@@ -11,8 +11,8 @@
 require_once "../vendor/autoload.php";
 require_once "./config.php";
 
-$eta = new \Kindy\EgyaptianEInvoice\ETA($config['client_id'],$config['client_secret'], 'uat');
+$invoice = new \Kindy\EgyaptianEInvoice\ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
 
-$searchMyCode = $eta->searchMyCode(10, 1, "Approved", true, "Descending");
+$searchMyCode = $invoice->searchMyCode(10, 1, "Approved", true, "Descending");
             
 var_dump($searchMyCode);

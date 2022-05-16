@@ -11,14 +11,14 @@
 require_once "../vendor/autoload.php";
 require_once "./config.php";
 
-$eta = new \Kindy\EgyaptianEInvoice\ETA($config['client_id'],$config['client_secret'], 'uat');
+$invoice = new \Kindy\EgyaptianEInvoice\ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
 
 $documentUUID = 'AXJE5KEH57JQSQNWFXQ7A23G10';
-$getDocument = $eta->getDocument($documentUUID, 'pdf');
+$getDocument = $invoice->getDocument($documentUUID, 'pdf');
 
 header("Content-type:application/pdf");            
 echo $getDocument;
 
 
-//$getDocument = $eta->getDocument($documentUUID);
+//$getDocument = $invoice->getDocument($documentUUID);
 //print_r($getDocument);

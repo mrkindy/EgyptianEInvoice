@@ -24,7 +24,7 @@ require_once "./config.php";
 
 use Kindy\EgyaptianEInvoice\Document\Document;
 use Kindy\EgyaptianEInvoice\Document\DocumentInvoiceLine;
-use Kindy\EgyaptianEInvoice\ETA;
+use Kindy\EgyaptianEInvoice\ETAInvoice;
 
 $issuer = [
     
@@ -105,9 +105,9 @@ if(isset($_POST['signature']))
         ]
     );
 
-    $eta = new ETA($config['client_id'],$config['client_secret'], 'uat');
+    $invoice = new ETAInvoice($config['client_id'],$config['client_secret'], 'uat');
     $finalDocument = [$document->toArray()];
-    $documentSubmit = $eta->submitDocument($finalDocument);
+    $documentSubmit = $invoice->submitDocument($finalDocument);
     echo $documentSubmit->acceptedDocuments[0]->uuid.'-'.$documentSubmit->acceptedDocuments[0]->longId.'-'.$documentSubmit->acceptedDocuments[0]->internalId;
 }
 
@@ -170,7 +170,7 @@ if(isset($_POST['signature']))
 </script>
 ```
 ## Integrate with eSign token
-I have developed a small tool that you can use to sign invoices through WebSocket before send it to EAT, you can find this tool on[Egyptian Tax EInvoice HttpSignature](https://github.com/mrkindy/ETAHttpSignature)
+I have developed a small tool that you can use to sign invoices through WebSocket before send it to EAT, you can find this tool on [Egyptian Tax EInvoice HttpSignature](https://github.com/mrkindy/ETAInvoiceHttpSignature)
 
 ## Contributing
 

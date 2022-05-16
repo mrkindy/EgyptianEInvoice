@@ -14,7 +14,7 @@ namespace Kindy\EgyaptianEInvoice\Document;
 /**
  * Class Document
  *
- * ETA document entity address object
+ * ETAInvoice document entity address object
  *
  * @package Kindy\EgyaptianEInvoice
  */

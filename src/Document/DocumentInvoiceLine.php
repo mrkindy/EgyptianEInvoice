@@ -17,7 +17,7 @@ use Kindy\EgyaptianEInvoice\Util\StaticData;
 /**
  * Class DocumentInvoiceLine
  *
- * ETA document InvoiceLine
+ * ETAInvoice document InvoiceLine
  *
  * @package Kindy\EgyaptianEInvoice
  */

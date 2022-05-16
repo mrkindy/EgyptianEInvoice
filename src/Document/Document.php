@@ -18,7 +18,7 @@ use Kindy\EgyaptianEInvoice\Util\Signature;
 /**
  * Class Document
  *
- * ETA single document
+ * ETAInvoice single document
  *
  * @package Kindy\EgyaptianEInvoice
  */
