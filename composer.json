@@ -3,7 +3,9 @@
     "description": "PHP Package for Egyptian eInvoicing SDK, eInvoicing is the solution of the Egyptian Tax Authority used by taxpayers to register their issued documents with the Tax Authority",
     "keywords": [
         "EEI",
+        "ETA",
         "Egyptian eInvoicing SDK",
+        "Egyptian eInvoicing Package",
         "eInvoicing"
     ],
     "homepage": "https://github.com/mrkindy/EgyaptianEInvoice",
@@ -27,7 +29,7 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.0.0"
         }
     }
 }
