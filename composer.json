@@ -1,5 +1,5 @@
 {
-    "name": "kindy/egyaptian-e-invoice",
+    "name": "kindy/egyptian-e-invoice",
     "description": "PHP Package for Egyptian eInvoicing SDK, eInvoicing is the solution of the Egyptian Tax Authority used by taxpayers to register their issued documents with the Tax Authority",
     "keywords": [
         "EEI",
