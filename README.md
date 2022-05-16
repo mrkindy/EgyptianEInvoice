@@ -7,7 +7,7 @@ PHP Package for Egyptian eInvoicing SDK, eInvoicing is the solution of the Egypt
 Via Composer
 
 ``` bash
-$ composer require Kindy/EgyaptianEInvoice
+$ composer require kindy/egyaptian-e-invoice
 ```
 
 ## Examples
@@ -16,6 +16,7 @@ Please see [Examples Files](examples).
 
 ## Usage
 
+To view all example please vist [Examples Files](examples).
 ``` php
 
 require_once "../vendor/autoload.php";
@@ -169,7 +170,7 @@ if(isset($_POST['signature']))
     };
 </script>
 ```
-## Integrate with eSign
+## Integrate with eSign token
 I have developed a small tool that you can use to sign invoices through WebSocket before send it to EAT, you can find this tool on[Egyptian Tax EInvoice HttpSignature](https://github.com/mrkindy/ETAHttpSignature)
 
 ## Contributing
