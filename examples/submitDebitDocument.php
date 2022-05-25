@@ -50,7 +50,9 @@ $receiver = [
 $document = new Document();
 $document->setIssuer($issuer)
          ->setReceiver($receiver)
-         ->setDateTimeIssued('2022-05-13T12:35:00Z');
+         ->setDateTimeIssued('2022-05-13T12:35:00Z')
+         ->setDocumentType('D')
+         ->setReferences(["5Z40TP7SXAKADVH8WX71PXNE10"]);
 $document->setPurchaseOrderReference('3asd1as');
 
 

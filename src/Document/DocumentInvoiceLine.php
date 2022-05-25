@@ -220,7 +220,17 @@ class DocumentInvoiceLine extends DocumentSetter
      */
     public function setTotalTax()
     {
-        $this->totalTax = FormateData::toFloat(array_sum(array_column($this->taxableItems, 'amount')));
+        $totalTax = 0;
+        foreach($this->taxableItems as $tax)
+        {
+            if($tax['taxType']!='T4')
+            {
+                $totalTax += $tax['amount'];
+            }else{
+                $totalTax -= $tax['amount'];
+            }
+        }
+        $this->totalTax = FormateData::toFloat($totalTax);
     }
     /**
      * Calculate salesTotal.
