@@ -179,6 +179,7 @@ Your contribution is welcome
 ## Credits
 
 - [Ibrahim Abotaleb](https://github.com/mrkindy)
+- [Hossam Hassan](https://github.com/devhus)
 
 ## License
 
