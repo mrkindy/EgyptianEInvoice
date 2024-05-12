@@ -193,7 +193,13 @@ abstract class AbstractApi
 
         if(is_array($params) && $paramsType == 'json' )
         {
-            $options['json'] = $params;
+            // Making sure if the passed $params was an string to just use it, or convert it to a string in case it was a array
+            $json                    = is_string($params) ? $params : json_encode($params);
+            // Sending the params with the "body" attribute instead of "json" to be able to send the params as a string,
+            // While setting the body value we use json_encode and json_decode with the JSON_UNESCAPED_UNICODE flag to ensure that output string will be UTF-8 encoded
+            // As the ETA api requires you to send the request in UTF-8 encoding to ensure the signature made on thier side can matchs the signature you are providing.
+            // Resources: https://www.youtube.com/watch?v=8FLoDBnxX5s
+            $options['body']         = json_encode(json_decode($json), JSON_UNESCAPED_UNICODE);
             $headers['Content-Type'] = 'application/json';
         }
         
